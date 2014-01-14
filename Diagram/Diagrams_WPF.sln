@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlShape_WPF", "ControlShape\ControlShape_WPF.csproj", "{0A7B9791-6F96-4DFD-A0CF-2B8A6E5B21E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlidingConnector_WPF", "GlidingConnector\GlidingConnector_WPF.csproj", "{DA8BFA8F-B0EC-4B6A-9592-E06710FAA48F}"
@@ -34,10 +36,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomToolboxDragDrop_WPF", "CustomToolboxDragDrop\CustomToolboxDragDrop_WPF.csproj", "{509FC0FC-4775-49A8-A16D-D6E031E42A9C}"
 EndProject
 Global
-	 
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = Diagrams_WPF_Work.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -127,26 +125,26 @@ Global
 		{72562F66-BB14-403A-BB5A-4E36EAACBF5A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{72562F66-BB14-403A-BB5A-4E36EAACBF5A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{72562F66-BB14-403A-BB5A-4E36EAACBF5A}.Release|x86.ActiveCfg = Release|Any CPU
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|x86.ActiveCfg = Debug|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|x86.Build.0 = Debug|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|Any CPU.ActiveCfg = Release|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|Mixed Platforms.Build.0 = Release|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|x86.ActiveCfg = Release|x86
-		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|x86.Build.0 = Release|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|x86.ActiveCfg = Debug|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|x86.Build.0 = Debug|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|Any CPU.ActiveCfg = Release|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|Mixed Platforms.Build.0 = Release|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|x86.ActiveCfg = Release|x86
-		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|x86.Build.0 = Release|x86
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|Mixed Platforms.Build.0 = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Debug|x86.ActiveCfg = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7BD30CF5-267B-440D-ADB0-BBE37144B4D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|Mixed Platforms.Build.0 = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Debug|x86.ActiveCfg = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BF923BF6-C153-497C-B1E1-9CA57EDEE92F}.Release|x86.ActiveCfg = Release|Any CPU
 		{772FF2F1-B7FD-41A7-AC10-A99C76DBE533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{772FF2F1-B7FD-41A7-AC10-A99C76DBE533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{772FF2F1-B7FD-41A7-AC10-A99C76DBE533}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -210,5 +208,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Diagrams_WPF_Work.vsmdi
 	EndGlobalSection
 EndGlobal

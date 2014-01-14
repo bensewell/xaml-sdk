@@ -252,5 +252,10 @@ namespace OrgChart
 				this.DiagramExpandNodeByPath(node.Path);
 			}
 		}
+
+        private void NewItemsCollection(object sender, RoutedEventArgs e)
+        {
+            this.viewModel.GraphSource.ChangeItemsCollection();
+        }
 	}
 }

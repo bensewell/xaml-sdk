@@ -235,7 +235,7 @@
 										Geometry="M1.9999998,0 L6,0 C7.1045694,0 8,0.89543051 8,1.9999999 L8,6 C8,7.1045694 7.1045694,8 6,8 L5,8 L5,9.999999 L13,9.999999 L13,7.9999986 C13,6.8954291 13.895431,5.9999986 15,5.9999986 L19,5.9999986 C20.10457,5.9999986 21,6.8954291 21,7.9999986 L21,11.999998 C21,13.104568 20.10457,13.999998 19,13.999998 L15,13.999998 C13.929949,13.999998 13.056169,13.159658 13.002603,12.102918 L13,11.999999 L5,11.999999 L5,17.999998 L13,17.999998 L13,17 C13,15.89543 13.895431,14.999999 15,14.999999 L19,14.999999 C20.10457,14.999999 21,15.89543 21,17 L21,21 C21,22.104568 20.10457,23 19,23 L15,23 C13.895431,23 13,22.104568 13,21 L13,19.999998 L5,19.999998 L3,19.999998 L3,8 L1.9999998,8 C0.89543033,8 -2.0209694E-07,7.1045694 2.8421709E-14,6 L2.8421709E-14,1.9999999 C-2.0209694E-07,0.89543051 0.89543033,0 1.9999998,0 z" />
                             </StackPanel>
                         </telerik:RadGeometryDropDownButton.DropDownContent>
-                    </telerik:RadGeometryDropDownButton>
+                    </telerik:RadGeometryDropDownButton>                    
                     <telerik:RadGeometryButton Height="57" Width="40" HorizontalAlignment="Center"
 							VerticalAlignment="Center" Content="refresh chart" Grid.Column="1"
 							Click="LayoutButtonClicked"
@@ -268,6 +268,7 @@
 							HorizontalAlignment="Center" Margin="0 4 0 0"
 							Command="telerik:DiagramExtensionCommands.Print"
 							CommandTarget="{Binding ElementName=diagram}" />
+                    <telerik:RadButton Content="New Items Collection" Click="NewItemsCollection" />
                 </Grid>
             </Border>
             <Border Grid.Row="1" Grid.Column="1" Margin="0 4 0 0" Background="White" BorderBrush="#FFD6D4D4" BorderThickness="0 0 1 1">
